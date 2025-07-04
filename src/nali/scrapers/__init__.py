@@ -8,4 +8,5 @@ def get_scraper(school: School):
         School.TEMPLATE: TemplateScraper,
         # Add new scraper mappings here
     }
+
     return scrapers.get(school)()

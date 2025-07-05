@@ -8,6 +8,7 @@ on:
       - "src/nali/scrapers/*.py"
     branches:
       - "main"
+  workflow_dispatch:
 
 jobs:
   test:
@@ -54,3 +55,9 @@ jobs:
             echo "Running tests for $school"
             pytest tests --school=$school
           done
+
+      - name: Fallback to all tests if manual run
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          echo "Manual dispatch: run all tests"
+          pytest tests

@@ -1,8 +1,13 @@
 name: test-nali
 on:
   pull_request:
+    types:
+      - opened
+      - reopened
     paths:
       - "src/nali/scrapers/*.py"
+    branches:
+      - "main"
 
 jobs:
   test:

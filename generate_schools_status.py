@@ -40,6 +40,7 @@ def generate_schools_status(output_path: str = "docs/status.json"):
 
     with output_path.open("w", encoding="utf-8") as f:
         json.dump(results, f, indent=2, ensure_ascii=False)
+        f.write("\n")
 
 
 if __name__ == "__main__":

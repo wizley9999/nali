@@ -14,8 +14,6 @@ class TemplateScraper(BaseScraper):
         title = soup.find("title").text.strip()
         content = soup.find("p").text.strip()
 
-        raise ScrapingError("Failed to scrape notices :(")
-
         return [
             Notice(
                 id=1,

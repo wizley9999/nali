@@ -7,7 +7,7 @@ const response = await fetch(
   }
 );
 
-const data = response.json();
+const data = await response.json();
 
 const statusElement = document.getElementById("status");
 

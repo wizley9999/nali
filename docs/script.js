@@ -13,14 +13,14 @@ const statusElement = document.getElementById("status");
 
 data.map((item) => {
   if (item.status) {
-    statusElement.innerHTML = `
+    statusElement.innerHTML += `
     <div class="flex items-center justify-between px-5 py-4">
       <div class="text-[#172B4D] text-base font-medium">${item.school}</div>
       <div class="text-[#36B37E] text-sm">Operational</div>
     </div>
     `;
   } else {
-    statusElement.innerHTML = `
+    statusElement.innerHTML += `
     <div class="px-5">
       <div class="flex items-center justify-between pt-4">
         <div class="text-[#172B4D] text-base font-medium">${item.school}</div>

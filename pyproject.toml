@@ -23,3 +23,6 @@ license = "MIT"
 [project.urls]
 Homepage = "https://nali.wizley.io"
 Repository = "https://github.com/wizley9999/nali.git"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/nali"]

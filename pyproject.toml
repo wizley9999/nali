@@ -3,7 +3,7 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "nali"
+name = "nali-scraper"
 version = "2025.7.4"
 dependencies = [
     "requests>=2.32.4",

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "nali-scraper"
-version = "2025.7.4"
+version = "2025.7.6"
 dependencies = [
     "requests>=2.32.4",
     "beautifulsoup4>=4.13.4",

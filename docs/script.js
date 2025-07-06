@@ -1,5 +1,5 @@
 const response = await fetch(
-  "https://api.github.com/repos/wizley9999/wizora/contents/docs/status.json",
+  "https://api.github.com/repos/wizley9999/nali/contents/docs/status.json",
   {
     headers: {
       Accept: "application/vnd.github.raw+json",

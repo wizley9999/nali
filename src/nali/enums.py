@@ -5,6 +5,7 @@ from .exceptions import InvalidSchoolError
 
 class School(Enum):
     TEMPLATE = "template"
+    HANSUNG = "hansung"
 
     # Add more universities here, e.g., HANSUNG = "hansung"
 

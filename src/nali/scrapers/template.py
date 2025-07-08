@@ -1,7 +1,6 @@
 from datetime import datetime
 
 from .base import BaseScraper
-from ..exceptions import ScrapingError
 from ..models import Notice
 
 

@@ -3,5 +3,10 @@
     "school": "TEMPLATE",
     "status": true,
     "error": null
+  },
+  {
+    "school": "HANSUNG",
+    "status": true,
+    "error": null
   }
 ]

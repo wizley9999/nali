@@ -31,7 +31,7 @@ nali 패키지(이하 '날리')는 대학별 공지사항을 스크래핑하기 
 ## Installation
 
 ```shell
-$ pip install nali
+$ pip install nali-scraper
 ```
 
 ## Package Structure
